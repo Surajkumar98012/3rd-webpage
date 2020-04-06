@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style type="text/css">
+	body{background-image:url(form3.jpg);}
+	body{background-repeat:repeat-y;}
+		#form{border: 2px solid white;
+			text-align:center;
+			margin: 5px 300px;
+      padding: 5px;
+		}
+		#submit{
+			display:inline-block;
+          	list-style: none;
+          	width:90px;
+          	
+          	background: black;
+          color: white;
+
+		}
+		} 
+		p{
+			text-align:center;
+		}
+		h1{
+			text-align:center;
+		}
+
+</style>
+</head>
+<body>
+	<h1>Course Sign Up Page</h1>
+	
+	<form id="form">
+		<p>Please Note:First Name,Last Name,Password, and Email are required</p>
+		<label for="First Name">First Name:</label>
+  <input type="text" id="username" name="username" required>
+  <label for="Last Name">Last Name:</label>
+  <input type="text" id="username" name="username" required><br/>
+  <br/>
+
+
+
+
+
+
+            Male:<input type="radio" name="sex" value="Male"/>
+            Female:<input type="radio" name="sex" value="Female">
+            <br/>
+
+
+
+
+
+
+
+            <p>Select the course!</p>
+            Engineering<input type="checkbox" name="course" value="Engineering">
+            Medical<input type="checkbox" name="course" value="Medical"><br/>
+            
+  
+
+
+
+
+
+
+   <p>select region!</p>
+            <select id="forming" name="region">
+                <option>bihar</option>
+                <option>Kerla</option>
+                <option>Hariyana</option>
+                <option>kashmir</option>
+                <option>Jammu</option>
+                <option>uttar pardesh</option>
+                <option>Mumbai</option>
+                <option>goa</option>
+
+
+                <option>rajsthan</option>
+                <option>chennai</option>
+                <option>Punjab</option>
+                <option>Delhi</option></select>
+                 <br/>
+<br/>
+
+
+
+
+
+
+  <label for="Email">Email:</label>
+  <input type="text" id="username" name="username" required>
+  <label for="Password">Password:</label>
+  <input type="Password" id="Password" name="Pword" required>
+
+  <br/>
+
+
+
+
+
+  <p>Are you over the age of 18?</p>
+   Yes:<input type="radio" name="age" value="Yes"/>
+            No:<input type="radio" name="age" value="No">
+            <p>Do you have a Credit card or Paypal?</p>
+
+
+
+
+            <select id="forming" name="region">
+                <option>Credit card</option>
+                <option>paypal</option></select><br/>
+                <br/>
+
+
+
+
+
+
+                 <input id="submit" type="submit" value="Sign Up">
+
+      
+
+	</form>
+
+
+
+
+
+
+
+</body>
+</html>
